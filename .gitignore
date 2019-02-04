@@ -1,0 +1,54 @@
+
+Skip to content
+
+    Pull requests
+    Issues
+    Marketplace
+    Explore
+
+    @Wassmerica
+
+2,732
+78,552
+
+    37,543
+
+github/gitignore
+Code
+Pull requests 67
+Projects 0
+Insights
+gitignore/Global/Xcode.gitignore
+0a23ed5 on Oct 29, 2018
+@Coeur Coeur Revert "Update Xcode.gitignore"
+@Coeur
+@arcresu
+@JimRoepcke
+@izuzak
+@fidmor89
+@3lvis
+@bbodenmiller
+24 lines (20 sloc) 501 Bytes
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
