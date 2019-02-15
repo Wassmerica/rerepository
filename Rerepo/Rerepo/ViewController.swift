@@ -10,17 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var labelOutlet: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        //F2 change
-        var F2 = "F2"
-        //F1 Branch change
-        var F1 = "F1"
-        
     }
-
+    
+    
 
 }
 
