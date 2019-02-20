@@ -7,5 +7,6 @@ target 'Rerepo' do
 
   # Pods for Rerepo
   pod 'Firebase/Core'
+  pod 'Firebase/RemoteConfig'
 
 end

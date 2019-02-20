@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseRemoteConfig
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var labelOutlet: UILabel!
+    var remoteConfig: RemoteConfig!
     
     override func viewDidLoad() {
         super.viewDidLoad()
