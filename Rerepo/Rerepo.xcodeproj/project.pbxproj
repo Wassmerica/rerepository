@@ -10,6 +10,7 @@
 		14FF80E7CBD8BFF8F5AA917D /* Pods_Rerepo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0421A1A5C240B05BF06A7D18 /* Pods_Rerepo.framework */; };
 		957DE953221742B500ED7C59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 957DE952221742B500ED7C59 /* GoogleService-Info.plist */; };
 		957DE957221DC7E100ED7C59 /* defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 957DE956221DC7E100ED7C59 /* defaults.plist */; };
+		95BE5622229EB2FB0068EA95 /* RerepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BE5621229EB2FB0068EA95 /* RerepoTests.swift */; };
 		95DAEE8D2208D312004D2925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DAEE8C2208D312004D2925 /* AppDelegate.swift */; };
 		95DAEE8F2208D312004D2925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DAEE8E2208D312004D2925 /* ViewController.swift */; };
 		95DAEE922208D312004D2925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DAEE902208D312004D2925 /* Main.storyboard */; };
@@ -18,11 +19,24 @@
 		95DAEE9F220DECB0004D2925 /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DAEE9E220DECB0004D2925 /* EventSource.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		95BE5624229EB2FB0068EA95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95DAEE812208D312004D2925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95DAEE882208D312004D2925;
+			remoteInfo = Rerepo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0421A1A5C240B05BF06A7D18 /* Pods_Rerepo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rerepo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4749435399BDA019B1F832FA /* Pods-Rerepo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rerepo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rerepo/Pods-Rerepo.debug.xcconfig"; sourceTree = "<group>"; };
 		957DE952221742B500ED7C59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		957DE956221DC7E100ED7C59 /* defaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = defaults.plist; sourceTree = "<group>"; };
+		95BE561F229EB2FB0068EA95 /* RerepoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RerepoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BE5621229EB2FB0068EA95 /* RerepoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RerepoTests.swift; sourceTree = "<group>"; };
+		95BE5623229EB2FB0068EA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95DAEE892208D312004D2925 /* Rerepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rerepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DAEE8C2208D312004D2925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95DAEE8E2208D312004D2925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +49,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		95BE561C229EB2FB0068EA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95DAEE862208D312004D2925 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -55,10 +76,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		95BE5620229EB2FB0068EA95 /* RerepoTests */ = {
+			isa = PBXGroup;
+			children = (
+				95BE5621229EB2FB0068EA95 /* RerepoTests.swift */,
+				95BE5623229EB2FB0068EA95 /* Info.plist */,
+			);
+			path = RerepoTests;
+			sourceTree = "<group>";
+		};
 		95DAEE802208D312004D2925 = {
 			isa = PBXGroup;
 			children = (
 				95DAEE8B2208D312004D2925 /* Rerepo */,
+				95BE5620229EB2FB0068EA95 /* RerepoTests */,
 				95DAEE8A2208D312004D2925 /* Products */,
 				07AB4292BDAA0D0A99E31D4C /* Pods */,
 				D7EF27A98D67DA091B747601 /* Frameworks */,
@@ -69,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				95DAEE892208D312004D2925 /* Rerepo.app */,
+				95BE561F229EB2FB0068EA95 /* RerepoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +132,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		95BE561E229EB2FB0068EA95 /* RerepoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BE5628229EB2FB0068EA95 /* Build configuration list for PBXNativeTarget "RerepoTests" */;
+			buildPhases = (
+				95BE561B229EB2FB0068EA95 /* Sources */,
+				95BE561C229EB2FB0068EA95 /* Frameworks */,
+				95BE561D229EB2FB0068EA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95BE5625229EB2FB0068EA95 /* PBXTargetDependency */,
+			);
+			name = RerepoTests;
+			productName = RerepoTests;
+			productReference = 95BE561F229EB2FB0068EA95 /* RerepoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		95DAEE882208D312004D2925 /* Rerepo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95DAEE9B2208D313004D2925 /* Build configuration list for PBXNativeTarget "Rerepo" */;
@@ -125,10 +175,14 @@
 		95DAEE812208D312004D2925 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Michael Wasserman";
 				TargetAttributes = {
+					95BE561E229EB2FB0068EA95 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 95DAEE882208D312004D2925;
+					};
 					95DAEE882208D312004D2925 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -148,11 +202,19 @@
 			projectRoot = "";
 			targets = (
 				95DAEE882208D312004D2925 /* Rerepo */,
+				95BE561E229EB2FB0068EA95 /* RerepoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		95BE561D229EB2FB0068EA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95DAEE872208D312004D2925 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,6 +239,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Rerepo/Pods-Rerepo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -185,6 +249,8 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -219,6 +285,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		95BE561B229EB2FB0068EA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BE5622229EB2FB0068EA95 /* RerepoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		95DAEE852208D312004D2925 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,6 +304,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95BE5625229EB2FB0068EA95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95DAEE882208D312004D2925 /* Rerepo */;
+			targetProxy = 95BE5624229EB2FB0068EA95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		95DAEE902208D312004D2925 /* Main.storyboard */ = {
@@ -251,6 +333,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		95BE5626229EB2FB0068EA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VK8P8C5Z6T;
+				INFOPLIST_FILE = RerepoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mike.traderev.RerepoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rerepo.app/Rerepo";
+			};
+			name = Debug;
+		};
+		95BE5627229EB2FB0068EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VK8P8C5Z6T;
+				INFOPLIST_FILE = RerepoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mike.traderev.RerepoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rerepo.app/Rerepo";
+			};
+			name = Release;
+		};
 		95DAEE992208D313004D2925 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -408,6 +532,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		95BE5628229EB2FB0068EA95 /* Build configuration list for PBXNativeTarget "RerepoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BE5626229EB2FB0068EA95 /* Debug */,
+				95BE5627229EB2FB0068EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		95DAEE842208D312004D2925 /* Build configuration list for PBXProject "Rerepo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
