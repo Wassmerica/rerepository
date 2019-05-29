@@ -9,6 +9,8 @@
 import UIKit
 import Firebase
 import FirebaseRemoteConfig
+import AWSS3
+import AWSCore
 
 class ViewController: UIViewController {
 
@@ -69,6 +71,7 @@ class ViewController: UIViewController {
         }
         welcomeString = welcomeMessage!
         print(welcomeString)
+        labelOutlet.text = welcomeString
     }
     
 

@@ -8,5 +8,6 @@ target 'Rerepo' do
   # Pods for Rerepo
   pod 'Firebase/Core'
   pod 'Firebase/RemoteConfig'
+  pod 'AWSS3'
 
 end
